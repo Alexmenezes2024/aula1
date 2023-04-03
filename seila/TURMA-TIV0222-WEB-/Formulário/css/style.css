@@ -1,0 +1,45 @@
+/*.color1 { #dacdac };
+.color2 { #f39708 };
+.color3 { #f85741 };
+.color4 { #0e9094 };
+.color5 { #1e1801 };
+*/
+*{
+    text-decoration: none;
+    margin: 0;
+
+}
+footer{
+    background-color:#0e9094 ;
+     min-height:200px ;
+     color: #fff;
+}
+main{
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgba(14, 144, 148,0.3);
+}
+
+header{
+    background-color:#dacdac(127,165,189,3);
+    border:#f39708 ;
+}
+.linhaBorda{
+    margin:5px;
+    padding:5px;
+    border: 1px solid steelblue
+
+}
+#labelNome{
+    font-weight: 600;
+}
+
+label{
+    color: aqua;
+}
+.corH1{
+    color: aquamarine;
+}
+.centro{
+    text-align: center;
+}
