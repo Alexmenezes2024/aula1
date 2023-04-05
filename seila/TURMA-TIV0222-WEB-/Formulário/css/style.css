@@ -10,36 +10,167 @@
 
 }
 footer{
-    background-color:#0e9094 ;
-     min-height:200px ;
-     color: #fff;
+    background-color:#da10ab  ;
+     min-height:500px ;
+     margin-left: 5px;
+     margin-right: 0px;
+     border-top:#da10ab ;
 }
 main{
     margin-right: 5px;
     margin-left: 5px;
-    background-color: rgba(14, 144, 148,0.3);
+    background-color: rgba(222, 25, 113, 0.1);
 }
 
 header{
-    background-color:#dacdac(127,165,189,3);
-    border:#f39708 ;
+    background-color:#da10ab(127,165,189,3);
+    border-bottom:solid#0f0f0e ;
 }
 .linhaBorda{
     margin:5px;
     padding:5px;
-    border: 1px solid steelblue
+    border: 1px solid rgb(6, 6, 6)
 
 }
 #labelNome{
     font-weight: 600;
+    color: darkmagenta
 }
 
 label{
-    color: aqua;
+    color:darkmagenta;
+    font-weight: 600;
+    padding: 5px;
 }
 .corH1{
-    color: aquamarine;
+    color: rgb(163, 2, 152);
+    padding: 5px;
 }
 .centro{
     text-align: center;
 }
+.botao{
+    border:1px solid #151515;
+    border-radius: 0px 5px 0px 5px;
+    background-color: #da10ab;
+    color: #fff ;
+    font-weight: 600;
+}
+.botao:hover{
+    background: transparent;
+    color: #da10ab;
+}
+
+.linkPe{
+
+
+    display: flex;
+    justify-content: center;
+    margin: 5px 15px;
+    padding: 5px;
+    border:2px solid #040000;
+    border-radius: 7px;
+    background-color: #da10ab;
+    height: 50px;
+}   
+
+.epaco{
+    margin-right: 5px;
+    max-height: 100%;
+}
+    
+.imgLogo{
+    display: flex;
+    justify-content: start;
+    border-top:20PX solid #da10ab ;
+    border-right:solid #da10ab;
+    border-bottom: 3px solid #da10ab;
+    margin: none 5px 5px 0;
+    border-radius: 0 30px 30px 0;
+    padding-right:  15px;
+    background-color:#1a1f1f(127,165,0,8);
+    width: 150px;
+   
+}
+.imgLogo :hover{
+    justify-content: center;
+    width: 150px;
+}
+
+
+.imgLogoD{
+    display: flex;
+    justify-content: start;
+    border-top:20PX solid #da10ab ;
+    border-right:solid #da10ab;
+    border-bottom: 3px solid #da10ab;
+    margin: none 5px 5px 0;
+    border-radius: 0 30px 30px 0;
+    padding-right:  15px;
+    background-color:#1a1f1f(127,165,0,8);
+    width: 150px;
+    
+   
+}
+.imgLogoD:hover{
+    justify-content: center;
+    width: 150px;
+}
+.separacao{
+    padding-bottom:  5px;
+
+}
+.BotaoPesquisa{
+    border: 1px solid #0d1818;
+    border-radius: 3px 7px 3px 07px;
+    background-color: #da10ab;
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.BotaoPesquisa:hover{
+    background: transparent;
+    color: #da10ab;
+}
+.classDiv{
+    margin: 5px 10px;
+
+}
+
+
+.classDivB{
+    margin: 5px 10px;
+    
+}
+
+.classBody{
+    margin: 0px 3px;
+
+}
+label,input,button,select{
+    font-size: 18px;
+}
+legend{
+    font-size: 22px;
+    color: darkmagenta;
+    font-weight: 600;
+}
+
+input,select{
+    background: #fff;
+    border-radius:  3px;
+    border: 1px solid darkmagenta;
+    color: darkmagenta;
+    font-size: 16px;
+    padding: 1px;
+   
+}
+input:disabled{
+    background-color: #fff;
+}
+input [type="number"]:focus{
+    zoom: 1.1;
+    border-radius: 3px;
+}
+
